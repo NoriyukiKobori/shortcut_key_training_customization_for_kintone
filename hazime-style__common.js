@@ -27,7 +27,7 @@
       asamiyaKireruImg: 'https://dl.dropboxusercontent.com/s/XXXXXXXXXXXXXX/XXX.png',
       asamiyaBgGif: 'https://dl.dropboxusercontent.com/s/XXXXXXXXXXXXXX/XXX.gif',
       yuriAdCtrlSGif: 'https://dl.dropboxusercontent.com/s/XXXXXXXXXXXXXX/XXX.gif',
-      yuriAdEGif: 'https://dl.dropboxusercontent.com/s/XXXXXXXXXXXXXX/yuri_CtrlS.gif',
+      yuriAdEGif: 'https://dl.dropboxusercontent.com/s/XXXXXXXXXXXXXX/XXX.gif',
       akogareiAdQestionGif: 'https://dl.dropboxusercontent.com/s/XXXXXXXXXXXXXX/XXX.gif',
       yumeoAdGif: 'https://dl.dropboxusercontent.com/s/XXXXXXXXXXXXXX/XXX.gif',
       asamiyaAdGif: 'https://dl.dropboxusercontent.com/s/XXXXXXXXXXXXXX/XXX.gif',
