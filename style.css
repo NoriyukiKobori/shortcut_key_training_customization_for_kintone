@@ -1,0 +1,192 @@
+.hazime-style__event_main_image {
+	position: absolute;
+	z-index: 98;
+	width: 100%;
+	/* height: 1000px; */
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hazime-style__event_main_image2 {
+	position: absolute;
+	text-align: center;
+  z-index: 100;
+	width: 100%;
+}
+
+.hazime-style__event_main_image_bg {
+	position: absolute;
+	text-align: center;
+	z-index: 99;
+	width: 100%;
+}
+
+.hazime-style__kitomi_friends_image {
+	position: absolute;
+	text-align: center;
+	z-index: 100;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hazime-style__recordlist-edit-gaia {
+	border: 0;
+	background-color: transparent;
+	display: inline-flex;
+	align-items: center;
+	padding: 8px;
+}
+
+#hazime-style__asamiya_btn {
+	cursor: pointer;
+	margin: 20px;
+}
+
+#hazime-style__asamiya_btn:hover {
+	width: 100px;
+	height: 100px;
+}
+
+#hazime-style__yumeo_btn {
+	cursor: pointer;
+	margin: 20px;
+}
+
+#hazime-style__yumeo_btn:hover {
+	width: 100px;
+	height: 100px;
+}
+
+#hazime-style__yuri_btn {
+	cursor: pointer;
+	margin: 20px;
+}
+
+#hazime-style__yuri_btn:hover {
+	width: 100px;
+	height: 100px;
+}
+
+#hazime-style__akoga_btn {
+	cursor: pointer;
+	margin: 20px;
+}
+
+#hazime-style__akoga_btn:hover {
+	width: 100px;
+	height: 100px;
+}
+
+.hazime-style__normal_coment {
+	font-size: 30px;
+}
+
+
+/* 花火用のCSS */
+@keyframes fireworks-animation {
+	0% {
+		transform: translate(-50%, 90vh);
+		width: 4px;
+		opacity: 1;
+	}
+
+	50% {
+		width: 4px;
+		opacity: 1;
+	}
+
+	100% {
+		width: 600px;
+		opacity: 0;
+	}
+}
+
+.hazime-style__firework,
+.hazime-style__firework::before,
+.hazime-style__firework::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	aspect-ratio: 1;
+	background: radial-gradient(circle, yellow 20px, transparent 0) 50% 00%,
+		radial-gradient(circle, pink 20px, transparent 0) 00% 50%,
+		radial-gradient(circle, red 10px, transparent 0) 50% 99%,
+		radial-gradient(circle, pink 20px, transparent 0) 99% 50%,
+		radial-gradient(circle, red 10px, transparent 0) 80% 90%,
+		radial-gradient(circle, pink 20px, transparent 0) 95% 90%,
+		radial-gradient(circle, skyBlue 15px, transparent 0) 10% 60%,
+		radial-gradient(circle, pink 20px, transparent 0) 31% 80%,
+		radial-gradient(circle, red 8px, transparent 0) 80% 10%,
+		radial-gradient(circle, pink 20px, transparent 0) 90% 23%,
+		radial-gradient(circle, lime 11px, transparent 0) 45% 20%,
+		radial-gradient(circle, yellow 10px, transparent 0) 13% 24%;
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	transform: translate(-30%, -30%);
+	animation: fireworks-animation 4s infinite;
+	z-index: 99999999;
+}
+
+.hazime-style__firework::before {
+	transform: translate(-30%, -30%) rotate(25deg) !important;
+}
+
+.hazime-style__firework::after {
+	transform: translate(-30%, -30%) rotate(-37deg) !important;
+}
+
+.hazime-style__firework:nth-of-type(2),
+.hazime-style__firework:nth-of-type(2)::before,
+.hazime-style__firework:nth-of-type(2)::after {
+	top: 30%;
+	left: 16%;
+	animation-duration: 3.8s;
+}
+
+.hazime-style__firework:nth-of-type(3),
+.hazime-style__firework:nth-of-type(3)::before,
+.hazime-style__firework:nth-of-type(3)::after {
+	top: 10%;
+	left: 72%;
+	animation-duration: 4.2s;
+}
+
+.hazime-style__firework:nth-of-type(4),
+.hazime-style__firework:nth-of-type(4)::before,
+.hazime-style__firework:nth-of-type(4)::after {
+	top: 28%;
+	left: 32%;
+	animation-duration: 3.6s;
+}
+
+.hazime-style__firework:nth-of-type(5),
+.hazime-style__firework:nth-of-type(5)::before,
+.hazime-style__firework:nth-of-type(5)::after {
+	top: 32%;
+	left: 84%;
+	animation-duration: 4.4s;
+}
+
+.hazime-style__firework:nth-of-type(6),
+.hazime-style__firework:nth-of-type(6)::before,
+.hazime-style__firework:nth-of-type(6)::after {
+	top: 38%;
+	left: 40%;
+	animation-duration: 4.1s;
+}
+
+.hazime-style__firework:nth-of-type(7),
+.hazime-style__firework:nth-of-type(7)::before,
+.hazime-style__firework:nth-of-type(7)::after {
+	top: 28%;
+	left: 64%;
+	animation-duration: 3.9s;
+}
+
+.hazime-style__firework:nth-of-type(8),
+.hazime-style__firework:nth-of-type(8)::before,
+.hazime-style__firework:nth-of-type(8)::after {
+	top: 30%;
+	left: 56%;
+	animation-duration: 3.9s;
+}
